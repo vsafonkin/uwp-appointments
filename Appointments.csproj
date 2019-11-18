@@ -87,15 +87,15 @@
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="SharedContent\cs\App.xaml.cs">
+    <Compile Include="SharedContent\App.xaml.cs">
       <Link>App.xaml.cs</Link>
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SharedContent\cs\MainPage.xaml.cs">
+    <Compile Include="SharedContent\MainPage.xaml.cs">
       <Link>MainPage.xaml.cs</Link>
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SharedContent\cs\AssemblyInfo.cs">
+    <Compile Include="SharedContent\AssemblyInfo.cs">
       <Link>Properties\AssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="SampleConfiguration.cs" />
@@ -129,7 +129,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="SharedContent\cs\MainPage.xaml">
+    <Page Include="SharedContent\MainPage.xaml">
       <Link>MainPage.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -171,7 +171,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SharedContent\cs\Default.rd.xml">
+    <Content Include="SharedContent\Default.rd.xml">
       <Link>Properties\Default.rd.xml</Link>
     </Content>
     <Content Include="SharedContent\media\microsoft-sdk.png">
